@@ -102,7 +102,7 @@ function HeroSection() {
             {/* social proof */}
             <div className="mt-10 flex flex-col items-center gap-10">
               <section className="flex justify-center items-center gap-5">
-                <Link href={"our-products"}>
+                <Link href={"#our-products"}>
                   <button className="text-2xl text-black font-semibold tracking-tight bg-sky-500 w-[13rem] py-3 rounded-lg cursor-pointer hover:translate-y-[-8px] transition duration-300">
                     Our Products
                   </button>
