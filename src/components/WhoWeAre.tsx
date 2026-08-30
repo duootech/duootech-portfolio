@@ -52,14 +52,13 @@ function WhoWeAre() {
           <motion.div
             variants={container}
             initial="hidden"
-            animate="show"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.5 }}
             className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-3"
           >
             {cardContents.map((card) => (
               <motion.section
                 variants={fadeIn}
-                initial="hidden"
-                animate="show"
                 key={card?.title}
                 className="bg-slate-500/10 px-5 py-5 rounded-xl cursor-pointer hover:translate-y-[-10px] transition duration-300 hover:border-sky-200 hover:border"
               >

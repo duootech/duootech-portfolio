@@ -124,7 +124,7 @@ function HeroSection() {
                     ))}
                   </div>
                   <p className="text-xs text-white/50">
-                    Trusted by 10+ businesses accross the India
+                    Trusted by 10+ businesses across the India
                   </p>
                 </div>
               </section>

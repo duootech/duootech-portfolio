@@ -18,11 +18,11 @@ function Technologies() {
     },
     {
       title: "Infrastructure",
-      tech: "Docker, Kubernates, AWS, Cloudflare, Linux",
+      tech: "Docker, Kubernetes, AWS, Cloudflare, Linux",
     },
     {
       title: "Message Queues",
-      tech: "Apacahe Kafka, RabbitMQ, NATS JetStream",
+      tech: "Apache Kafka, RabbitMQ, NATS JetStream",
     },
     {
       title: "Observability",

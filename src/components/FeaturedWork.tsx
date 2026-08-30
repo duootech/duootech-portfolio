@@ -17,7 +17,7 @@ function FeaturedWork() {
     },
     {
       title: "Café Management System",
-      desc: "Software to manage multiple outlets with multiple stuff, real-time monitoring, monthly report and fast billing process.",
+      desc: "Software to manage multiple outlets with multiple staff, real-time monitoring, monthly report and fast billing process.",
       tags: "Real-time monitoring, Multiple outlet management, POS Billing, Auto report generation",
       img: Cafe,
     },
@@ -29,7 +29,7 @@ function FeaturedWork() {
     },
     {
       title: "Hookr",
-      desc: "Webhook Delivery SaaS with DLQ retry meachanism, AI automation and real-time delivery montoring.",
+      desc: "Webhook Delivery SaaS with DLQ retry mechanism, AI automation and real-time delivery montoring.",
       tags: "DLQ, n8n, LLM, Real-time monitoring, SaaS, AI Automation, CRM Integration, Email & Slack Notification",
       img: Hookr,
     },

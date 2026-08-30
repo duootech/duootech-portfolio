@@ -30,7 +30,7 @@ const services = [
   {
     title: "Digital Infrastructure",
     desc: "The dependable layer beneath the product: architecture, observability, queues, security and scale.",
-    tags: "Kafka, Message Queus, Security",
+    tags: "Kafka, Message Queues, Security",
     icon: <FiDatabase size={25} className="text-sky-400" />,
   },
   {
