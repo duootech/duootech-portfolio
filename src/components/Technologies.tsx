@@ -59,7 +59,7 @@ function Technologies() {
                       .map((tag) => (
                         <section
                           key={tag}
-                          className="border-b py-2 text-xl font-semibold tracking-wide"
+                          className="border-b py-2 text-lg sm:text-xl font-semibold tracking-wide"
                         >
                           {tag}
                         </section>

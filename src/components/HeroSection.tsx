@@ -63,7 +63,7 @@ function HeroSection() {
         {/* giant faint watermark */}
         <h1
           className="pointer-events-none absolute bottom-[-1%] left-1/2 w-full -translate-x-1/2 select-none whitespace-nowrap text-center font-black leading-none tracking-tight bg-gradient-to-t from-white/[0.08] to-white/[0.01] bg-clip-text text-transparent"
-          style={{ fontSize: "min(22vw, 320px)" }}
+          style={{ fontSize: "min(15.5vw, 320px)" }}
           aria-hidden="true"
         >
           {watermark}
@@ -73,21 +73,7 @@ function HeroSection() {
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center px-6 mt-[5rem] text-center sm:px-10 lg:px-16">
           <div className="flex max-w-6xl flex-col items-center mt-[6rem]">
             {/* headline */}
-            <motion.h1
-              initial={{
-                opacity: 0,
-                y: 20,
-              }}
-              animate={{
-                opacity: 1,
-                y: [20, -5, 0],
-              }}
-              transition={{
-                duration: 0.5,
-                ease: [0.4, 0.0, 0.2, 1],
-              }}
-              className="max-w-6xl font-sans text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl"
-            >
+            <motion.h1 className="max-w-6xl font-sans text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
               Your Startup's Vision. <br /> Our{" "}
               <Highlight>Battle-Tested Infrastructure</Highlight>.
             </motion.h1>
