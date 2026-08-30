@@ -51,7 +51,7 @@ function WhatWeDo() {
   return (
     <>
       <div id="what-we-build">
-        <div className="pt-30 px-10">
+        <div className="pt-30 px-5 lg:px-10">
           <div className="space-y-2">
             <Heading2 highlight="Build">What We</Heading2>
             <Subheading>

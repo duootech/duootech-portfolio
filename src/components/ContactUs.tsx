@@ -43,7 +43,7 @@ function ContactUs() {
 
   return (
     <>
-      <div className="pt-20 px-10" id="contact-us">
+      <div className="pt-20 px-5 lg:px-10" id="contact-us">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
           <div className="">
             <div>

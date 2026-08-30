@@ -37,7 +37,7 @@ function Hookr() {
             />
           </ContainerScroll>
 
-          <div className="mt-10">
+          <div className="mt-10 px-5 lg:px-10">
             <Subheading>
               A webhook delivery SaaS for teams that need every event to arrive
               reliably. It handles the messy middle so product teams can focus

@@ -34,7 +34,7 @@ function WhoWeAre() {
   return (
     <>
       <div
-        className="pt-20 grid gap-10 grid-cols-1 lg:grid-cols-2 px-10"
+        className="pt-20 grid gap-10 grid-cols-1 lg:grid-cols-2 px-5 lg:px-10"
         id="what-is-duootech"
       >
         <section className="flex flex-col justify-center items-center gap-3 w-full lg:w-xl">

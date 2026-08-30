@@ -65,7 +65,7 @@ function Footer() {
 
   return (
     <>
-      <div className="mt-20 bg-white/10 px-10 py-20">
+      <div className="mt-20 bg-white/10 px-5 lg:px-10 py-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
           <section className="space-y-3">
             <section className="flex items-center gap-5 flex-wrap">
@@ -89,14 +89,14 @@ function Footer() {
           </section>
           <section></section>
           <section>
-            <h3 className="text-xl font-semibold tracking-normal mb-3">
+            <h3 className="text-lg sm:text-xl font-semibold tracking-normal mb-3">
               Sections
             </h3>
             <section className="space-y-3 flex flex-col gap-0">
               {sections.map((sec) => (
                 <Link
                   href={sec?.link}
-                  className="text-lg text-white/50 hover:text-white transition duration-200"
+                  className="text-md sm:text-lg text-white/50 hover:text-white transition duration-200"
                 >
                   {sec?.title}
                 </Link>
@@ -104,14 +104,14 @@ function Footer() {
             </section>
           </section>
           <section>
-            <h3 className="text-xl font-semibold tracking-normal mb-3">
+            <h3 className="text-lg sm:text-xl font-semibold tracking-normal mb-3">
               Products
             </h3>
             <section className="space-y-3 flex flex-col gap-0">
               {products.map((sec) => (
                 <Link
                   href={sec?.link}
-                  className="text-lg text-white/50 hover:text-white transition duration-200"
+                  className="text-md sm:text-lg text-white/50 hover:text-white transition duration-200"
                 >
                   {sec?.title}
                 </Link>
@@ -119,7 +119,7 @@ function Footer() {
             </section>
           </section>
           <section>
-            <h3 className="text-xl font-semibold tracking-normal mb-3">
+            <h3 className="text-lg sm:text-xl font-semibold tracking-normal mb-3">
               Social
             </h3>
             <section className="space-y-3">
@@ -127,7 +127,7 @@ function Footer() {
                 {social.map((sec) => (
                   <Link
                     href={sec?.link}
-                    className="text-lg text-white/50 hover:text-white transition duration-200"
+                    className="text-md sm:text-lg text-white/50 hover:text-white transition duration-200"
                   >
                     {sec?.title}
                   </Link>
@@ -136,12 +136,12 @@ function Footer() {
             </section>
           </section>
           <section>
-            <h3 className="text-xl font-semibold tracking-normal mb-3">
+            <h3 className="text-lg sm:text-xl font-semibold tracking-normal mb-3">
               Contact
             </h3>
             <section className="space-y-3">
               {contact.map((sec) => (
-                <p className="text-lg text-white/50 hover:text-white transition duration-200">
+                <p className="text-md sm:text-lg text-white/50 hover:text-white transition duration-200">
                   {sec}
                 </p>
               ))}
@@ -151,7 +151,7 @@ function Footer() {
         <div className="mt-10">
           <h1
             className="md:text-7xl bg-clip-text text-transparent bg-gradient-to-t from-white/[0.08] to-white/[0.01] text-center font-sans font-bold"
-            style={{ fontSize: "min(16vw, 320px)" }}
+            style={{ fontSize: "min(15vw, 320px)" }}
           >
             DuooTech
           </h1>

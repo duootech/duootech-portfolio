@@ -101,14 +101,14 @@ function HeroSection() {
 
             {/* social proof */}
             <div className="mt-10 flex flex-col items-center gap-10">
-              <section className="flex justify-center items-center gap-5">
+              <section className="flex flex-col sm:flex-row justify-center items-center gap-5">
                 <Link href={"#our-products"}>
-                  <button className="text-2xl text-black font-semibold tracking-tight bg-sky-500 w-[13rem] py-3 rounded-lg cursor-pointer hover:translate-y-[-8px] transition duration-300">
+                  <button className="text-lg sm:text-2xl text-black font-semibold tracking-tight bg-sky-500 w-[9rem] sm:w-[13rem] py-3 rounded-lg cursor-pointer hover:translate-y-[-8px] transition duration-300">
                     Our Products
                   </button>
                 </Link>
                 <Link href={"#contact-us"}>
-                  <button className="text-2xl backdrop-blur-2xl border-2 w-[13rem] py-3 rounded-lg cursor-pointer hover:translate-y-[-8px] transition duration-300">
+                  <button className="text-lg sm:text-2xl backdrop-blur-2xl border-2 w-[9rem] sm:w-[13rem] py-3 rounded-lg cursor-pointer hover:translate-y-[-8px] transition duration-300">
                     Contact Us
                   </button>
                 </Link>

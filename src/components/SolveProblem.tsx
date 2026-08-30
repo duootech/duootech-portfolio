@@ -30,7 +30,7 @@ function SolveProblem() {
 
   return (
     <>
-      <div className="mt-20 px-10">
+      <div className="mt-20 px-5 lg:px-10">
         <section className="space-y-2">
           <Heading2>
             How We <span className="text-sky-500">Solve</span> Problems

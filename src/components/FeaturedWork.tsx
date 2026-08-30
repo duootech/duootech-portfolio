@@ -38,7 +38,7 @@ function FeaturedWork() {
   return (
     <>
       <div
-        className="pt-20 py-20 px-10 bg-linear-to-br from-teal-500 to-sky-600 mt-20"
+        className="pt-20 py-20 px-5 lg:px-10 bg-linear-to-br from-teal-500 to-sky-600 mt-20"
         id="our-products"
       >
         <section>
