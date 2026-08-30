@@ -3,8 +3,6 @@ import { FaRegBuilding } from "react-icons/fa";
 import { SiN8N } from "react-icons/si";
 import { MdOutlineCloudQueue } from "react-icons/md";
 import { IoCodeSlashSharp } from "react-icons/io5";
-import { motion } from "framer-motion";
-import { container, fadeIn, fadeUp } from "@/lib/motion";
 import Heading2 from "./Heading2";
 
 function WhoWeAre() {
@@ -49,16 +47,9 @@ function WhoWeAre() {
         </section>
 
         <section className="">
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.5 }}
-            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-3"
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-3">
             {cardContents.map((card) => (
-              <motion.section
-                variants={fadeIn}
+              <section
                 key={card?.title}
                 className="bg-slate-500/10 px-5 py-5 rounded-xl cursor-pointer hover:translate-y-[-10px] transition duration-300 hover:border-sky-200 hover:border"
               >
@@ -69,9 +60,9 @@ function WhoWeAre() {
                   </p>
                   <p className="text-md text-white/60 mt-2">{card?.desc}</p>
                 </section>
-              </motion.section>
+              </section>
             ))}
-          </motion.div>
+          </div>
         </section>
       </div>
     </>
