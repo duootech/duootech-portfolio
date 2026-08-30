@@ -34,7 +34,7 @@ function ContactUs() {
       const res = await axios.post("/api/contact", formData);
       setRes("SUCCESS");
     } catch (error) {
-      console.log(error);
+      // console.log(error);
       setRes("ERROR");
     } finally {
       setLoading(false);
